@@ -52,13 +52,40 @@ const users = [
 
 // user[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // this gives all keys of object in form of array
-console.log(Object.values(tinderUser)); // this gives all values of object in form of array
-console.log(Object.entries(tinderUser)); // this gives all key and values of object in form of array in array
+// console.log(Object.keys(tinderUser)); // this gives all keys of object in form of array
+// console.log(Object.values(tinderUser)); // this gives all values of object in form of array
+// console.log(Object.entries(tinderUser)); // this gives all key and values of object in form of array in array
 
-console.log(tinderUser.hasOwnProperty('mail'));
+// console.log(tinderUser.hasOwnProperty('mail'));
+
+
+const course = {
+    courseName: "js in hindi",
+    coursePrice: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : Instructor} = course // by using this we cannot manadatory to use like course.courseInstructor and also not to write a long name also
+
+
+console.log(Instructor);
+
+// {
+//     "name": "Aman",
+//     "courseName": "js in hindi"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+// this is Json with help of which we call API it is like object and array both
 
 
 
